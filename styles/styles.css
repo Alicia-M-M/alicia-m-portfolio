@@ -99,6 +99,24 @@ h6 {
     transition: 0.5s;
 }
 
+
+/* web */
+
+.vid-dk-width {
+    /* max-width: 770px; */
+    /* max-height: 560px; */
+}
+
+/* .vid-mb-width {
+    max-width: 220px;
+    height:auto;
+} */
+
+.vid-dk-width{
+    max-width: 770px;
+    height:auto;
+}
+
 /* cards home*/
 .card {
     background-color: #FEFEFB;
@@ -124,7 +142,7 @@ h6 {
     margin-left: auto;
 }
 
-.card-max-oas{
+.card-max-oas {
     /* max-width: 110px;
     max-height: 100%; */
     /* margin-right: auto;
@@ -259,6 +277,7 @@ footer ul {
     .max-left {
         max-width: 195px;
     }
+
     .card-max-about {
         margin-right: 50px;
         margin-left: 0px;
@@ -276,7 +295,7 @@ footer ul {
         margin-right: 30px;
     } */
 
-  
+
 
 }
 
