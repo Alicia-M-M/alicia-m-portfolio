@@ -112,9 +112,9 @@ h6 {
     height:auto;
 } */
 
-.vid-dk-width{
+.vid-dk-width {
     max-width: 770px;
-    height:auto;
+    height: auto;
 }
 
 /* cards home*/
@@ -156,10 +156,19 @@ h6 {
     margin-left: auto;
 }
 
+/* .max {
+    max-width: 100%;
+    height: auto;
+} */
+
 .bg-landing {
     background-color: #FEFEFB;
     position: relative;
 }
+
+/* .card {
+    min-height: 10rem;
+  } */
 
 .col-style {
     padding-top: 20vh;
