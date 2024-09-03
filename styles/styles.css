@@ -57,20 +57,47 @@ h6 {
     max-width: 250px;
 }
 
+.textOnImage {
+    position: absolute;
+    top: 130%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.textBelowSignature {
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+svg {
+    width: 320px;
+    height: 100%;
+}
+
 /* intro */
 .btn {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 600;
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit" sans-serif;
     font-size: 12px;
     text-decoration: none;
-    background-color: #FEFEFB;
+    background-color: #000000;
     border-radius: 0px;
     padding: 0px 16px 0px 16px;
 }
 
 .btn-outline-dark {
     border-width: 0.5px;
+}
+
+.btn:hover {
+    background-color: #9B0000;
+}
+
+.btn-outline-dark:hover {
+    border-color: #9B0000;
 }
 
 /* navbar */
@@ -95,7 +122,7 @@ h6 {
 }
 
 .nav-link:hover {
-    color: #757570;
+    color: #9B0000;
     transition: 0.5s;
 }
 
@@ -167,7 +194,7 @@ h6 {
   } */
 
 .col-style {
-    padding-top: 20vh;
+    padding-top: 30vh;
     /* position:relative; */
 }
 
@@ -190,7 +217,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #5f5f5f;
+    color: #9B0000;
     transition: 0.5s;
 }
 
@@ -207,12 +234,12 @@ footer ul {
     /* max-width: 100px; */
 }
 
-.fa-arrow-left{
+.fa-arrow-left {
     color: black;
 }
 
 .fa-arrow-left:hover {
-    color: #5f5f5f;
+    color: #9B0000;
     transition: 0.5s;
 }
 
@@ -270,23 +297,10 @@ footer ul {
 }
 
 
-/* .textOnImage{
-    position:absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-/* .textBelowSignature{
-    position:absolute;
-    top: 225%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-
 
 /* media queries */
+
+
 @media (min-width: 992px) {
     .max-left {
         max-width: 195px;
@@ -359,4 +373,18 @@ footer ul {
         margin-left: 0px;
     }
 
+}
+
+@media (min-width: 500px){
+    svg{
+        width: 450px;
+        height: 100%;
+    }
+
+    .textOnImage {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
