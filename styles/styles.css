@@ -153,6 +153,20 @@ svg {
 
 }
 
+.card-hover-home:hover {
+    color: #9B0000;
+    transition: 0.5s;
+}
+
+
+.card .video:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.card .video:hover {
+ opacity: 50%;
+}
+
 .card-img-top {
     background-color: #FEFEFB;
     border-radius: 0px;
@@ -375,8 +389,8 @@ footer ul {
 
 }
 
-@media (min-width: 500px){
-    svg{
+@media (min-width: 500px) {
+    svg {
         width: 450px;
         height: 100%;
     }
