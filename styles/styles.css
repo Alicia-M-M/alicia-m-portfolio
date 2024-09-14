@@ -105,6 +105,7 @@ svg {
 .nav {
     background-color: #FEFEFB;
     width: 100%;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.1);
     /* margin:auto; */
 }
 
@@ -158,14 +159,43 @@ svg {
     transition: 0.5s;
 }
 
-
-.card .video:hover{
+.card-hover-home img{
     opacity: 1;
+    transition: .5s ease;
+}
+
+.card-hover-home:hover img{
+    opacity: 0.5;
+    transition: .5s ease;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.card-hover-home video{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.card-hover-home:hover video{
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+
+/* .card-hover-home:hover .card-img{
+    opacity: 0.5;
+    transition: .5s ease;
+} */
+
+
+/* .container-hover {
+    opacity: 1;
+
+}
+
+.container-hover:hover {
+    opacity: 50%;
     transition: opacity 0.3s ease;
-}
-.card .video:hover {
- opacity: 50%;
-}
+} */
 
 .card-img-top {
     background-color: #FEFEFB;
@@ -222,6 +252,7 @@ footer {
     padding-top: 40px;
     background-color: #FEFEFB;
     color: 000000;
+   
 
 }
 
@@ -342,6 +373,9 @@ footer ul {
 }
 
 @media (min-width: 576px) {
+    .nav{
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    }
     .move-nav-bottom {
         position: relative;
     }
