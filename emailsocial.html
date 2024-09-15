@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- endbuild -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +17,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/styles/styles.css">
 
     <title>Alicia Morley Portfolio</title>
 </head>
@@ -29,10 +31,10 @@
             <!-- <div class="col-12 col-sm-2 max-left">
             </div> -->
 
-            <div class="col-3 col-sm-2 text-start p-start-4">
+            <div class="col-3 col-sm-2 text-left p-left-4 max-left">
                 <a href="home.html"><i class="fa-solid fa-arrow-left px-0 fa-xs"></i></i></a>
             </div>
-            <div class="col-6 col-md-3 col-sm-3 px-0 py-4 text-center text-sm-start mx-sm-0 signature-max">
+            <div class="col-6 col-md-3 col-sm-3 px-0 py-4 text-center text-sm-left mx-sm-0 signature-max">
                 <a href="index.html">
                     <svg class="img-fluid cursor homeButton" width="100%" height="100%" viewBox="0 0 512 138"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +60,7 @@
         <div class="row mx-auto">
             <div class="col-10 col-sm-2 max-left px-0 px-sm-2">
                 <ul class="nav move-nav-bottom justify-content-center
-                 flex-sm-column text-sm-end">
+                 flex-sm-column text-sm-right">
                     <li class="nav-item">
                         <a class="nav-link pt-sm-0 px-2 px-sm-3" href="home.html">PORTFOLIO</a>
                     </li>
@@ -76,7 +78,7 @@
             </div>
 
             <div class="col-12 col-sm-10 px-0">
-                <div class="row mx-auto px-0 text-center text-sm-start">
+                <div class="row mx-auto px-0 text-center text-sm-left">
                     <div class="col-10 mx-auto  mx-sm-0 col-sm-6 px-4 px-sm-0 pb-4 max-w-intro">
                         <p>
                             I have extensive experience designing static and animated emails, email banner and social
@@ -101,8 +103,8 @@
                     <!-- PAID -->
                     <div class="row mx-auto px-0 ">
                         <div class="card-group px-0 mx-auto">
-                            <div class="col-10 col-sm-3 py-0 px-sm-0 card-max-about">
-                                <div class="card p-0">
+                            <div class="col-10 col-sm-3 py-0 px-0 card-max-about">
+                                <div class="card p-0 w-100">
                                     <img src="/images/giftguide.jpg" class="card-img-top p-0 img-fluid" alt="...">
                                     <div class="card-body px-0 pt-2">
                                         <h4 class="card-title pt-2">KATE SPADE OCTOBER 2024</h4>
@@ -114,8 +116,8 @@
                                 </div>
                             </div>
                             <div class="col-10 col-sm-3 p-0 px-sm-0 card-max-about">
-                                <div class="card p-0 ">
-                                    <video loop autoplay muted>
+                                <div class="card p-0 w-100">
+                                    <video loop autoplay muted class="image-fluid w-100">
                                         <source src="images/junetiktok.mp4" type="video/mp4">
                                     </video>
                                     <div class="card-body px-0 pt-2">
@@ -134,7 +136,9 @@
                                     <div class="card-body px-0 pt-2">
                                         <h4 class="card-title pt-2">KATE SPADE MARCH 2024</h4>
                                         <p>
-                                            I designed a series of I post showcasing our bestsellers using evergreen brand codes and PDP product relating to the promotion. These assets were also created as 1:1 assets for META.
+                                            I designed a series of I post showcasing our bestsellers using evergreen
+                                            brand codes and PDP product relating to the promotion. These assets were
+                                            also created as 1:1 assets for META.
                                         </p>
                                     </div>
                                 </div>
@@ -146,7 +150,7 @@
 
                     <div class="row mx-auto px-0 ">
                         <div class="card-group px-0 mx-auto">
-                            <div class="col-10 col-sm-3 py-0 px-sm-0 card-max-about">
+                            <div class="col-10 col-sm-3 py-0 px-0 card-max-about">
                                 <div class="card p-0">
                                     <img src="/images/firesigns.jpg" class="card-img-top p-0 img-fluid" alt="...">
                                     <div class="card-body px-0 pt-2">
@@ -216,7 +220,7 @@
     <footer class="mt-sm-auto">
         <div class="container-fluid text-center">
             <div class="row d-block">
-                <div class="col-12 col-sm-2 max-left text-sm-end icons-container">
+                <div class="col-12 col-sm-2 max-left text-sm-right icons-container">
                     <ul class="list-inline pr-4">
                         <li class="list-inline-item"><a href="https://github.com/Alicia-M-M"><i
                                     class="fa-brands fa-github px-1 fa-xs "></i></a></li>
@@ -233,12 +237,13 @@
     </footer>
 
 
-    <!-- the below below the footer -->
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+
+
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- javascript files -->
     <script src="/scripts/script.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>

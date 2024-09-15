@@ -3,10 +3,27 @@
   "version": "1.0.0",
   "description": "portfolio",
   "main": "index.html",
-  "scripts": {},
+  "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin images/* -o dist/img",
+    "usemin": "usemin aboutme.html -d dist --htmlmin -o dist/aboutme.html && usemin emailsocial.html -d dist --htmlmin -o dist/emailsocial.html && usemin home.html -d dist --htmlmin -o dist/home.html && usemin web.html -d dist --htmlmin -o dist/web.html && usemin index.html -d dist --htmlmin -o dist/index.html"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
-    "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.7.1",
+    "uglify-js": "^3.19.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alicia-M-M/alicia-m-portfolio.git"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   }
 }

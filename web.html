@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- endbuild -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +17,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/styles/styles.css">
+
 
     <title>Alicia Morley Portfolio</title>
 </head>
@@ -30,10 +33,10 @@
                 
             </div> -->
 
-            <div class="col-3 col-sm-2 text-start p-start-4">
+            <div class="col-3 col-sm-2 text-left p-left-4 max-left">
                 <a href="home.html"><i class="fa-solid fa-arrow-left px-0 fa-xs"></i></i></a>
             </div>
-            <div class="col-6 col-md-3 col-sm-3 px-0 py-4 text-center text-sm-start mx-sm-0  signature-max">
+            <div class="col-6 col-md-3 col-sm-3 px-0 py-4 text-center text-sm-left mx-sm-0  signature-max">
                 <a href="index.html">
                     <svg class="img-fluid cursor homeButton" width="100%" height="100%" viewBox="0 0 512 138"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +62,7 @@
         <div class="row mx-auto">
             <div class="col-12 col-sm-2 max-left px-0 px-sm-2">
                 <ul class="nav move-nav-bottom justify-content-center
-                 flex-sm-column text-sm-end">
+                 flex-sm-column text-sm-right">
                     <li class="nav-item">
                         <a class="nav-link pt-sm-0 px-2 px-sm-3" href="home.html">PORTFOLIO</a>
                     </li>
@@ -77,7 +80,7 @@
             </div>
 
             <div class="col-12 col-sm-10 px-0">
-                <div class="row mx-auto px-0 text-center text-sm-start">
+                <div class="row mx-auto px-0 text-center text-sm-left">
                     <div class="col-12 col-sm-6 px-4 px-sm-0 pb-4 max-w-intro">
                         <p>
                             Below are examples of my web design work. Working on homepages and landing pages I greatly
@@ -87,224 +90,233 @@
                             interfaces, utilizing and desiging for Amazon store fronts.
                         </p>
                     </div>
-
-                    <!-- PROJECT 1 -->
-                    <!-- <cards buuterlies/> -->
-                    <div class="row mx-auto px-0">
-                        <div class="col-12 col-sm-6 px-4 px-sm-0 ">
-
-                            <h4 class="card-title pt-2">
-                                KATE SPADE SURPRISE</h4>
-                            <p class="pt-1">For the spring 2023 creative I designed animations and static assets for
-                                homepage hero banners, category banners and site assets using Figma, photoshop and After
-                                Effects</p>
-                        </div>
+                </div>
+                <!-- PROJECT 1 -->
+                <!-- <cards buuterlies/> -->
 
 
+                <div class="row mx-auto px-0">
+                    <div class="col-12 col-sm-6 px-4 px-sm-0 ">
+
+                        <h4 class="card-title pt-2">
+                            KATE SPADE SURPRISE</h4>
+                        <p class="pt-1">For the spring 2023 creative I designed animations and static assets for
+                            homepage hero banners, category banners and site assets using Figma, photoshop and After
+                            Effects</p>
                     </div>
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web embed-responsive">
-                            <div class="card p-0 h-100">
-                                <video loop autoplay>
-                                    <source src="images/butterfliesonecolumndK.mp4" type="video/mp4">
-                                </video>
-                                <div class="card-body px-0 pt-2 pb-0">
-                                    <!-- <h4 class="card-title pt-2">KATE SPADE OUTLET, SPRING CREATIVE</h4> -->
-                                    <!-- <h6 class="pt-1">DESKTOP AND MOBILE</h6> -->
-                                </div>
+
+
+                </div>
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <video loop autoplay class=" img-fluid">
+                                <source src="images/butterfliesonecolumndK.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body px-0 pt-2 pb-0">
+                                <!-- <h4 class="card-title pt-2">KATE SPADE OUTLET, SPRING CREATIVE</h4> -->
+                                <!-- <h6 class="pt-1">DESKTOP AND MOBILE</h6> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- butterfly cat banners -->
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web embed-responsive">
-                            <div class="card p-0 h-100">
-                                <video loop autoplay>
-                                    <source src="images/butterfliescatbanners.mp4" type="video/mp4">
-                                </video>
-                                <div class="card-body px-0 pt-2">
-                                    <!-- <h6 class="card-title">CATEGORY BANNERS</h6> -->
-                                </div>
+                <!-- butterfly cat banners -->
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <video loop autoplay class=" img-fluid">
+                                <source src="images/butterfliescatbanners.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body px-0 pt-2">
+                                <!-- <h6 class="card-title">CATEGORY BANNERS</h6> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- PROJECT 2 -->
-                    <!-- fullbloom -->
-                    <div class="row mx-auto px-0">
-                        <div class="col-12 col-sm-6 px-4 px-sm-0">
-
-                            <h4 class="card-title pt-2">
-                                KATE SPADE OUTLET</h4>
-                            <p class="pt-1">For the spring 2024 creative I designed a teaser landing page for a coming
-                                soon product. In Addition I designed site assets including, flyouts, OAS spots and
-                                cat-banners.</p>
-                        </div>
+                <!-- PROJECT 2 -->
+                <!-- fullbloom -->
 
 
+
+                <div class="row mx-auto px-0">
+                    <div class="col-12 col-sm-6 px-4 px-sm-0">
+
+                        <h4 class="card-title pt-2">
+                            KATE SPADE OUTLET</h4>
+                        <p class="pt-1">For the spring 2024 creative I designed a teaser landing page for a coming
+                            soon product. In Addition I designed site assets including, flyouts, OAS spots and
+                            cat-banners.</p>
                     </div>
 
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
-                            <div class="card p-0 h-100">
-                                <img src="images/infullbloom.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
-                                <!-- <div class="card-body px-0 pt-2">
+
+                </div>
+
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <img src="images/infullbloom.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
+                            <!-- <div class="card-body px-0 pt-2">
                                     <h3 class="card-title">SPRING 2022</h3>
                                 </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fullbloom -->
+
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <img src="images/infullbloomoas.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
+                            <div class="card-body px-0 pt-2">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- fullbloom -->
+                <!-- PROJECT 3 -->
+                <!-- seashells -->
+                <div class="row mx-auto px-0">
+                    <div class="col-12 col-sm-6 px-4 px-sm-0">
 
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
-                            <div class="card p-0 h-100">
-                                <img src="images/infullbloomoas.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
-                                <div class="card-body px-0 pt-2">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
+                        <h4 class="card-title pt-2">
+                            KATE SPADE SURPRISE</h4>
+                        <p class="pt-1">For the summer 2023 creative I designed Homepage hero and banner animations
+                            and site assets. Aswell as designing and creating homepage layouts and assets I deliver
+                            and collaborate with the web development team to insure al assets are in the correct
+                            format and size for the Kate Spade CMS.</p>
+                    </div>
+
+
+                </div>
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <video loop autoplay class=" img-fluid">
+                                <source src="images/seashells.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body px-0 pt-2 pb-0">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- PROJECT 3 -->
-                    <!-- seashells -->
-                    <div class="row mx-auto px-0">
-                        <div class="col-12 col-sm-6 px-4 px-sm-0">
-
-                            <h4 class="card-title pt-2">
-                                KATE SPADE SURPRISE</h4>
-                            <p class="pt-1">For the summer 2023 creative I designed Homepage hero and banner animations
-                                and site assets. Aswell as designing and creating homepage layouts and assets I deliver
-                                and collaborate with the web development team to insure al assets are in the correct
-                                format and size for the Kate Spade CMS.</p>
-                        </div>
-
-
-                    </div>
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web embed-responsive">
-                            <div class="card p-0 h-100">
-                                <video loop autoplay>
-                                    <source src="images/seashells.mp4" type="video/mp4">
-                                </video>
-                                <div class="card-body px-0 pt-2 pb-0">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
+                <!-- seashells -->
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <video loop autoplay class=" img-fluid">
+                                <source src="images/threecolumnseashells.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body px-0 pt-2">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- seashells -->
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
-                            <div class="card p-0 h-100 embed-responsive">
-                                <video loop autoplay>
-                                    <source src="images/threecolumnseashells.mp4" type="video/mp4">
-                                </video>
-                                <div class="card-body px-0 pt-2">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
+
+                <!-- PROJECT 4 -->
+                <!-- logo -->
+                <div class="row mx-auto px-0">
+                    <div class="col-12 col-sm-6 px-4 px-sm-0">
+
+                        <h4 class="card-title pt-2">
+                            KATE SPADE OUTLET LAUNCH</h4>
+                        <p class="pt-1">For the October 2023 Outlet launch I designed a coming soon LP with a Launch
+                            MP4 incoporating the Kate Spade spot asthetic. Aswell as the landing page I design site
+                            assets for category pages and worked on various other web assets for the launch.</p>
+                    </div>
+
+
+                </div>
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <video loop autoplay class=" img-fluid">
+                                <source src="images/logoksol.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body px-0 pt-2">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
 
-                    <!-- PROJECT 4 -->
-                    <!-- logo -->
-                    <div class="row mx-auto px-0">
-                        <div class="col-12 col-sm-6 px-4 px-sm-0">
+                <div class="row mx-auto px-0">
+                    <div class="col-12 col-sm-6 px-4 px-sm-0">
 
-                            <h4 class="card-title pt-2">
-                                KATE SPADE OUTLET LAUNCH</h4>
-                            <p class="pt-1">For the October 2023 Outlet launch I designed a coming soon LP with a Launch
-                                MP4 incoporating the Kate Spade spot asthetic. Aswell as the landing page I design site
-                                assets for category pages and worked on various other web assets for the launch.</p>
-                        </div>
-
-
+                        <h4 class="card-title pt-2">
+                            KATE SPADE OUTLET</h4>
+                        <p class="pt-1">For the December 2023 Outlet launch I designed a Buy Online, Pick up in
+                            Store webpage, creating kate Spade Specific icons to relect our omni channel experience.
+                            The page was holiday themed and I designed also an evergreen page for useage in between
+                            key sale moments. Inlcuding the LP I designed a plethora of holiday assets to
+                            co-ordinate with the holiday seasons creative plates and photography.</p>
                     </div>
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web embed-responsive">
-                            <div class="card p-0 h-100">
-                                <video loop autoplay>
-                                    <source src="images/logoksol.mp4" type="video/mp4">
-                                </video>
-                                <div class="card-body px-0 pt-2">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
+
+
+                </div>
+                <!-- hol -->
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <img src="images/holidaydkmb.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
+                            <div class="card-body px-0 pt-2 pb-0">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-
-                    <div class="row mx-auto px-0">
-                        <div class="col-12 col-sm-6 px-4 px-sm-0">
-
-                            <h4 class="card-title pt-2">
-                                KATE SPADE OUTLET</h4>
-                            <p class="pt-1">For the December 2023 Outlet launch I designed a Buy Online, Pick up in
-                                Store webpage, creating kate Spade Specific icons to relect our omni channel experience.
-                                The page was holiday themed and I designed also an evergreen page for useage in between
-                                key sale moments. Inlcuding the LP I designed a plethora of holiday assets to
-                                co-ordinate with the holiday seasons creative plates and photography.</p>
-                        </div>
-
-
-                    </div>
-                    <!-- hol -->
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
-                            <div class="card p-0 h-100">
-                                <img src="images/holidaydkmb.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
-                                <div class="card-body px-0 pt-2 pb-0">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <video loop autoplay class=" img-fluid">
+                                <source src="images/bopisoasdkmb.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body px-0 pt-2">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web embed-responsive">
-                            <div class="card p-0 h-100">
-                                <video loop autoplay>
-                                    <source src="images/bopisoasdkmb.mp4" type="video/mp4">
-                                </video>
-                                <div class="card-body px-0 pt-2">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
+                <!-- ninetydegree -->
+
+                <div class="row mx-auto px-0">
+                    <div class="col-12 col-sm-6 px-4 px-sm-0">
+
+                        <h4 class="card-title pt-2">
+                            90 DEGREE BY REFLEX & YOGALICIOUS</h4>
+                        <p class="pt-1">As a Digital Designer at 90 Degree by Reflex I created all content for the
+                            two websites, 90 Degree by Reflex and Yogaliciuos. I designed hero and web graphic
+                            assets, updating the CSS and making any layout , typography and branding adjustments
+                            where neccesary. Aswell as the brands own websites I created design content for the
+                            Amazon store front Landing pages for each.</p>
+                    </div>
+                </div>
+                <div class="row mx-auto px-0 mb-4">
+                    <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
+                        <div class="card p-0 h-100">
+                            <img src="images/ninetydegree.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
+                            <div class="card-body px-0 pt-2 pb-0">
+                                <!-- <h3 class="card-title">SPRING 2022</h3> -->
                             </div>
                         </div>
                     </div>
-
-                    <!-- ninetydegree -->
-
-                    <div class="row mx-auto px-0">
-                        <div class="col-12 col-sm-6 px-4 px-sm-0">
-
-                            <h4 class="card-title pt-2">
-                                90 DEGREE BY REFLEX & YOGALICIOUS</h4>
-                            <p class="pt-1">As a Digital Designer at 90 Degree by Reflex I created all content for the two websites, 90 Degree by Reflex and Yogaliciuos. I designed hero and web graphic assets, updating the CSS and making any layout , typography and branding adjustments where neccesary. Aswell as the brands own websites I created design content for the Amazon store front Landing pages for each.</p>
-                        </div>
-                    </div>
-                    <div class="row mx-auto px-0 mb-4">
-                        <div class="col-10 col-sm-10 py-0 px-sm-0 px-0 card-max-web">
-                            <div class="card p-0 h-100">
-                                <img src="images/ninetydegree.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
-                                <div class="card-body px-0 pt-2 pb-0">
-                                    <!-- <h3 class="card-title">SPRING 2022</h3> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
 
 
 
-                    <!-- cards 2 -->
-                    <!-- <div class="row mx-auto px-0 mb-4">
+                <!-- cards 2 -->
+                <!-- <div class="row mx-auto px-0 mb-4">
                         <div class="col-8 col-sm-8 py-0 px-sm-0 px-0 card-max-web me-2">
                             <div class="card p-0 h-100">
                                 <img src="images/catbannerdk.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
@@ -323,9 +335,9 @@
                         </div>
                     </div> -->
 
-                    <!-- PROJECT 2 -->
+                <!-- PROJECT 2 -->
 
-                    <!-- <div class="row mx-auto px-0 mb-4">
+                <!-- <div class="row mx-auto px-0 mb-4">
                         <div class="col-8 col-sm-8 py-0 px-sm-0 px-0 card-max-web me-2">
                             <div class="card p-0 h-100">
                                 <img src="images/weblayout.jpg" class="card-img-top p-0 w-100 h-100" alt="...">
@@ -352,8 +364,8 @@
 
 
 
-                    <!-- OAS 3 col -->
-                    <!-- <div class="row mx-auto px-0 ">
+                <!-- OAS 3 col -->
+                <!-- <div class="row mx-auto px-0 ">
                         <div class="card-group d-inline-flex px-1 px-sm-0 mx-auto">
                             <div class="col-4 col-sm-3 py-0 px-sm-0 card-max-about px-1">
                                 <div class="card p-0">
@@ -400,7 +412,7 @@
 
 
 
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>
@@ -408,7 +420,7 @@
     <footer class="mt-sm-auto">
         <div class="container-fluid text-center">
             <div class="row d-block">
-                <div class="col-12 col-sm-2 max-left text-sm-end icons-container">
+                <div class="col-12 col-sm-2 max-left text-sm-right icons-container">
                     <ul class="list-inline pr-4">
                         <li class="list-inline-item"><a href="https://github.com/Alicia-M-M"><i
                                     class="fa-brands fa-github px-1 fa-xs "></i></a></li>
@@ -425,12 +437,13 @@
     </footer>
 
 
-    <!-- the below below the footer -->
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+
+
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- javascript files -->
     <script src="/scripts/script.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
