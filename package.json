@@ -7,7 +7,7 @@
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin images/* -o dist/img",
+    "imagemin": "imagemin images/* -o dist/images",
     "usemin": "usemin aboutme.html -d dist --htmlmin -o dist/aboutme.html && usemin emailsocial.html -d dist --htmlmin -o dist/emailsocial.html && usemin home.html -d dist --htmlmin -o dist/home.html && usemin web.html -d dist --htmlmin -o dist/web.html && usemin index.html -d dist --htmlmin -o dist/index.html"
   },
   "dependencies": {
