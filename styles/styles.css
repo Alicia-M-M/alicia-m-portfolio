@@ -80,7 +80,7 @@ svg {
 .btn {
     color: rgb(255, 255, 255);
     font-weight: 600;
-    font-family: "Outfit" sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 12px;
     text-decoration: none;
     background-color: #000000;
