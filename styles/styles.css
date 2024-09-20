@@ -12,7 +12,7 @@ body {
 p {
     font-weight: 400;
     font-family: "Outfit", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -31,19 +31,19 @@ h2 {
 h3 {
     font-weight: 600;
     font-family: "Outfit", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 h4 {
     font-weight: 600;
     font-family: "Outfit", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 h5 {
     font-weight: 400;
     font-family: "Outfit", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 h6 {
@@ -59,7 +59,7 @@ h6 {
 
 .textOnImage {
     position: absolute;
-    top: 130%;
+    top: 153%;
     left: 51%;
     transform: translate(-50%, -50%);
 }
@@ -113,12 +113,14 @@ svg {
     position: fixed;
     bottom: 0;
     z-index: 100;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 .nav-link {
     font-weight: 600;
     font-family: "Outfit", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #000000;
 }
 
@@ -378,6 +380,8 @@ footer ul {
     }
     .move-nav-bottom {
         position: relative;
+        padding-top:0px;
+        padding-bottom:0px;
     }
 
     footer {
@@ -431,7 +435,7 @@ footer ul {
 
     .textOnImage {
         position: absolute;
-        top: 120%;
+        top: 150%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
